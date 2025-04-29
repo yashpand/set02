@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Details</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subscription Details</h1>
+        <div class="subscription-details">
+            <p><strong>User Name:</strong> <%= subscription.userName %></p>
+            <p><strong>Email:</strong> <%= subscription.email %></p>
+            <p><strong>Plan:</strong> <%= subscription.plan %></p>
+            <p><strong>Start Date:</strong> <%= subscription.startDate %></p>
+            <p><strong>End Date:</strong> <%= subscription.endDate %></p>
+        </div>
+        <a href="/subscriptions" class="btn">Back to Subscriptions</a>
+    </div>
+</body>
+</html>
